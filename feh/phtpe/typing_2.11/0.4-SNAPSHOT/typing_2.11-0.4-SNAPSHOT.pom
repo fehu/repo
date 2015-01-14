@@ -40,11 +40,5 @@
             <url>http://fehu.github.io/repo/</url>
             <layout>default</layout>
         </repository>
-        <repository>
-            <id>ScalazBintrayRepo</id>
-            <name>Scalaz Bintray Repo</name>
-            <url>http://dl.bintray.com/scalaz/releases/</url>
-            <layout>default</layout>
-        </repository>
     </repositories>
 </project>
