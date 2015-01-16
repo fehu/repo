@@ -5,19 +5,10 @@
     <artifactId>scala-compiler-utils_2.11</artifactId>
     <packaging>jar</packaging>
     <description>scala-compiler-utils</description>
-    <url>https://github.com/fehu/util</url>
     <version>0.2-SNAPSHOT</version>
-    <licenses>
-        <license>
-            <name>MIT</name>
-            <url>http://opensource.org/licenses/MIT</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
     <name>scala-compiler-utils</name>
     <organization>
         <name>feh.util</name>
-        <url>https://github.com/fehu/util</url>
     </organization>
     <dependencies>
         <dependency>
@@ -31,17 +22,23 @@
             <version>2.11.5</version>
         </dependency>
         <dependency>
-            <groupId>feh.util</groupId>
-            <artifactId>util_2.11</artifactId>
-            <version>1.0.6</version>
-        </dependency>
-        <dependency>
             <groupId>de.sciss</groupId>
             <artifactId>scalarefactoring_2.11</artifactId>
             <version>0.1.0</version>
         </dependency>
+        <dependency>
+            <groupId>feh.util</groupId>
+            <artifactId>util_2.11</artifactId>
+            <version>1.0.7</version>
+        </dependency>
     </dependencies>
     <repositories>
+        <repository>
+            <id>Fehusgithubrepo</id>
+            <name>Fehu's github repo</name>
+            <url>http://fehu.github.io/repo/</url>
+            <layout>default</layout>
+        </repository>
         <repository>
             <id>SonatypeSnapshots</id>
             <name>Sonatype Snapshots</name>
