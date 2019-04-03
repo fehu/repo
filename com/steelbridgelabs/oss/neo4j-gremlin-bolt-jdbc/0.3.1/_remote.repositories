@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Apr 03 16:03:30 CST 2019
+neo4j-gremlin-bolt-jdbc-0.3.1-javadoc.jar>=
+neo4j-gremlin-bolt-jdbc-0.3.1.jar>=
+neo4j-gremlin-bolt-jdbc-0.3.1-sources.jar>=
+neo4j-gremlin-bolt-jdbc-0.3.1.pom>=
